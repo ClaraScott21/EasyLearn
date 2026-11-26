@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111827">
+  <title>Home | Easy Learn</title>
+  <link rel="stylesheet" href="css/styles.css"><link rel="stylesheet" href="css/readability.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="index.html" aria-label="Easy Learn home"><img class="brand-logo" src="assets/logo.jpg" alt=""><span>Easy <span class="brand-blue">Learn</span></span></a>
+      <div class="side-label">MENU</div>
+      <nav class="side-nav" aria-label="Main navigation">
+        <a class="side-link active" href="index.html" data-page="home"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7"/><path d="M5 9v12h14V9M9 21v-7h6v7"/></svg></span>Home</a>
+        <a class="side-link" href="about.html" data-page="about"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg></span>About us</a>
+        <a class="side-link" href="services.html" data-page="services"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/><rect x="14" y="14" width="6" height="6" rx="1"/></svg></span>Our services</a>
+        <a class="side-link" href="contact.html" data-page="contact"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg></span>Contact</a>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="streak-card"><div class="streak-icon">✦</div><div><strong>7 day streak</strong><small>You're building a habit!</small></div></div>
+        <button class="profile" id="profileButton"><span class="profile-avatar">J</span><span class="profile-copy"><strong>Jamie Parker</strong><small>Free learner</small></span><span class="profile-more">···</span></button>
+      </div>
+    </aside>
+
+    <main class="main" id="home" data-current-page="home">
+      <header class="topbar"><button class="mobile-menu" id="menuButton" aria-label="Open navigation"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button><div class="breadcrumb">My learning <span>/</span> <b>Home</b></div><div class="top-actions"><button class="top-icon" id="themeButton" aria-label="Toggle light and dark theme"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg></button><button class="help-button" data-toast="Help center">Help <span>↗</span></button></div></header>
+      <div class="content home-content">
+        <section class="home-welcome">
+          <div class="welcome-copy-block"><span class="section-kicker">YOUR LEARNING SPACE</span><h1>Welcome to Easy Learn.</h1><p>Your next great idea starts with one small step.</p><a class="welcome-cta" href="services.html">Explore learning paths <span>→</span></a></div>
+          <div class="welcome-mark"><img src="assets/logo.jpg" alt="Easy Learn logo"></div>
+        </section>
+        <section class="home-features" aria-labelledby="feature-heading">
+          <div class="home-section-heading"><div><span class="section-kicker">EXPLORE</span><h2 id="feature-heading">Choose your next step</h2><p>Pick a learning activity and go at your own pace.</p></div></div>
+          <div class="feature-grid">
+            <a class="feature-card feature-practice" href="subjects.html?activity=practice"><span class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V2h6v2M9 10h6M9 14h6M9 18h3"/></svg></span><span class="feature-arrow">↗</span><span class="feature-kicker">PRACTICE</span><h3>Practice test</h3><p>Test what you know with questions that help you build confidence.</p><span class="feature-link">Start practicing <b>→</b></span></a>
+            <a class="feature-card feature-vocabulary" href="subjects.html?activity=vocabulary"><span class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19 9 5l5 14M6 14h7M14 19l3.5-10 3.5 10M15.5 16h4"/></svg></span><span class="feature-arrow">↗</span><span class="feature-kicker">BUILD YOUR WORDS</span><h3>Vocabulary</h3><p>Learn new words, review definitions, and make them stick.</p><span class="feature-link">Explore words <b>→</b></span></a>
+            <a class="feature-card feature-concepts" href="subjects.html?activity=concepts"><span class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 21h4M8.2 14.5A7 7 0 1 1 15.8 14.5c-.9.7-1.5 1.7-1.7 3.5h-4.2c-.2-1.8-.8-2.8-1.7-3.5Z"/></svg></span><span class="feature-arrow">↗</span><span class="feature-kicker">MAKE IT CLICK</span><h3>Concepts</h3><p>Get clear explanations that make challenging ideas easier.</p><span class="feature-link">Browse concepts <b>→</b></span></a>
+            <a class="feature-card feature-typing" href="typing.html"><span class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M7 9h.01M10 9h.01M13 9h.01M16 9h.01M7 12h.01M10 12h.01M13 12h.01M16 12h.01M8 15h8"/></svg></span><span class="feature-arrow">↗</span><span class="feature-kicker">LEARN THROUGH PLAY</span><h3>Typing game</h3><p>Practice typing speed and accuracy with quick, playful rounds.</p><span class="feature-link">Play a game <b>→</b></span></a>
+          </div>
+        </section>
+        <footer class="home-footer"><a class="footer-brand" href="index.html"><img src="assets/logo.jpg" alt=""><span>Easy <span class="brand-blue">Learn</span></span></a><span>Learn at your own pace.</span><nav aria-label="Footer navigation"><a href="about.html">About us</a><a href="services.html">Our services</a><a href="contact.html">Contact</a></nav><small>© 2026 Easy Learn</small></footer>
+      </div>
+    </main>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

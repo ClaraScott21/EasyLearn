@@ -1,0 +1,80 @@
+/* Readability pass: stronger muted text, larger captions, and clear controls */
+:root{--text:#f8fafc;--muted:#d5deea;--quiet:#bdc9d8;--soft:#bdc9d8}
+body.light{--text:#0b1220;--muted:#334155;--quiet:#526174;--soft:#526174}
+body{color:var(--text)}
+.side-label{color:#bdc9d8;font-size:11px;letter-spacing:1.25px}
+.streak-card small,.profile-copy small{color:#bdc9d8;font-size:11px}
+.breadcrumb{font-size:12px;color:#bdc9d8}.breadcrumb b{color:#f8fafc}
+.help-button{font-size:11px;color:#e2e8f0}
+.date-line{font-size:11px;color:#bdc9d8}
+.section-kicker{font-size:12px;color:#bfdbfe}
+.home-welcome .section-kicker{color:#bfdbfe}
+.home-welcome h1{color:#fff}
+.home-welcome p{color:#e2eaf4}
+.home-section-heading h2{font-size:23px;color:#f8fafc}
+.home-section-heading p{font-size:12px;color:#d5deea}
+.feature-kicker{font-size:11px;color:#dbeafe;letter-spacing:1px}
+.feature-card h3{font-size:18px;color:#fff}
+.feature-card p{font-size:13px;color:#e2eaf4;line-height:1.65}
+.feature-link{font-size:12px;color:#dbeafe}
+.feature-arrow{font-size:18px;color:#dbeafe}
+.home-footer,.home-footer span,.home-footer small{color:#bdc9d8}
+.home-footer nav a{font-size:11px;color:#d5deea}
+.page-heading p,.purpose-heading p{font-size:15px;color:#d5deea}
+.purpose-heading h2{color:#fff}
+.purpose-card h3{font-size:17px;color:#fff}
+.purpose-card p{font-size:14px;line-height:1.7;color:#e2eaf4}
+.service-label{font-size:11px;color:#dbeafe;letter-spacing:.9px}
+.service-detail h2{font-size:22px;color:#fff}
+.service-detail>p{font-size:14px;color:#e2eaf4;line-height:1.75}
+.service-options b{font-size:13px;color:#fff}
+.service-options span{font-size:12px;color:#d5deea}
+.flip-label{font-size:10px;color:#cffafe}
+.vocab-flip strong{font-size:25px;color:#fff}
+.vocab-flip>span:nth-last-child(2){font-size:14px;color:#ecfeff}
+.flip-hint{font-size:11px;color:#cffafe}
+.language-note b{font-size:14px;color:#fff}
+.language-note small{font-size:13px;color:#e9e2ff}
+.typing-stats strong{color:#e0f2fe}
+.typing-stats small{font-size:12px;color:#e2eaf4}
+.service-note p{font-size:13px;color:#e2eaf4}
+.service-note a,.about-callout>a{font-size:13px;color:#dbeafe}
+.about-callout h2{font-size:16px;color:#fff}
+.about-callout p{font-size:13px;color:#d5deea}
+.contact-card-heading h2,.chat-heading h2{font-size:18px;color:#fff}
+.contact-card-heading p,.chat-heading p{font-size:12px;color:#d5deea}
+.contact-form-card form>label,.form-row label{font-size:13px;color:#f1f5f9}
+.contact-form-card input,.contact-form-card select,.contact-form-card textarea,.chat-input-row input{font-size:14px;color:#fff;background:#0b1422;border-color:#91a2b8}
+.contact-form-card input::placeholder,.contact-form-card textarea::placeholder,.chat-input-row input::placeholder{color:#bdc9d8;opacity:1}
+.form-note,.chat-disclaimer{font-size:11px;color:#cbd5e1}
+.form-feedback{font-size:13px;color:#bfdbfe}
+.chat-bubble{font-size:13px;color:#f8fafc;line-height:1.6}
+.quick-questions>span{font-size:10px;color:#cbd5e1}
+.quick-questions button{font-size:11px;color:#eff6ff;border-color:#93c5fd}
+.bot-tag{color:#dbeafe}
+.chat-input-row button{background:#1d4ed8}
+.nav-icon{color:#e2e8f0}
+.nav-icon svg{width:22px;height:22px;stroke-width:2.3}
+.feature-icon{width:48px;height:48px;background:#1d4ed8;color:#fff}
+.feature-icon svg{width:29px;height:29px;stroke-width:2.2}
+.feature-vocabulary .feature-icon{background:#0e7490;color:#fff}
+.feature-concepts .feature-icon{background:#5b35a5;color:#fff}
+.feature-typing .feature-icon{background:#075985;color:#fff}
+.service-icon,.callout-icon,.contact-icon,.bot-avatar{background:#1d4ed8;color:#fff}
+.service-vocab .service-icon{background:#0e7490}.service-concepts .service-icon{background:#5b35a5}.service-typing .service-icon{background:#075985}
+.page-primary{background:#1d4ed8;color:#fff}.page-primary:hover{background:#1e40af;color:#fff}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #bfdbfe;outline-offset:3px}
+body.light .breadcrumb b,body.light .home-section-heading h2,body.light .feature-card h3,body.light .purpose-heading h2,body.light .purpose-card h3,body.light .service-detail h2,body.light .about-callout h2,body.light .contact-card-heading h2,body.light .chat-heading h2{color:#0b1220}
+body.light .breadcrumb,body.light .home-section-heading p,body.light .feature-card p,body.light .feature-kicker,body.light .home-footer,body.light .home-footer nav a,body.light .home-footer small,body.light .page-heading p,body.light .purpose-heading p,body.light .purpose-card p,body.light .service-detail>p,body.light .service-options span,body.light .service-note p,body.light .about-callout p,body.light .contact-card-heading p,body.light .chat-heading p{color:#334155}
+body.light .nav-icon{color:#475569}body.light .side-link.active .nav-icon{color:#1d4ed8}
+body.light .feature-link{color:#1d4ed8}body.light .feature-arrow{color:#1d4ed8}
+body.light .service-label,body.light .language-note b{color:#1e293b}body.light .language-note small{color:#4c3b75}
+body.light .chat-bubble{color:#0f172a}body.light .bot-message{background:#e2e8f0}body.light .user-message{background:#1d4ed8;color:#fff}
+body.light .contact-form-card input,body.light .contact-form-card select,body.light .contact-form-card textarea,body.light .chat-input-row input{color:#0f172a;background:#fff;border-color:#64748b}
+body.light .contact-form-card input::placeholder,body.light .contact-form-card textarea::placeholder,body.light .chat-input-row input::placeholder{color:#526174}
+body.light .form-note,body.light .chat-disclaimer,body.light .quick-questions>span{color:#475569}
+body.light .quick-questions button{color:#1e40af;border-color:#1d4ed8}
+body.light .flip-label,body.light .flip-hint{color:#e0f2fe}
+@media(max-width:600px){.home-section-heading h2{font-size:21px}.feature-card h3{font-size:18px}.feature-card p{font-size:13px}.ged-hero p,.page-heading p,.purpose-card p,.service-detail>p{font-size:14px}.service-options span,.language-note small,.typing-stats small{font-size:12px}.form-row label,.contact-form-card form>label{font-size:13px}}
+
+.side-label{font-size:11px}.streak-card small,.profile-copy small{font-size:11px}.home-footer{font-size:11px}footer{font-size:11px;color:#bdc9d8}footer span{color:#bdc9d8}body.light .side-label,body.light .streak-card small,body.light .profile-copy small,body.light footer,body.light footer span{color:#526174}body.light .section-kicker{color:#1d4ed8}body.light .home-welcome .section-kicker{color:#1d4ed8}body.light .form-feedback{color:#1d4ed8}
